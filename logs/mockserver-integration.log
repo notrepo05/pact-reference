@@ -1,5 +1,5 @@
-I, [2018-04-03T11:14:03.454711 #50161]  INFO -- : Registered expected interaction GET /dogs
-D, [2018-04-03T11:14:03.454882 #50161] DEBUG -- : {
+I, [2018-04-03T11:27:53.871467 #53177]  INFO -- : Registered expected interaction GET /dogs
+D, [2018-04-03T11:27:53.871638 #53177] DEBUG -- : {
   "description": "a request for all dogs",
   "providerState": "i have a list of dogs",
   "request": {
@@ -24,8 +24,8 @@ D, [2018-04-03T11:14:03.454882 #50161] DEBUG -- : {
     ]
   }
 }
-I, [2018-04-03T11:14:03.458310 #50161]  INFO -- : Received request GET /dogs
-D, [2018-04-03T11:14:03.458374 #50161] DEBUG -- : {
+I, [2018-04-03T11:27:53.875075 #53177]  INFO -- : Received request GET /dogs
+D, [2018-04-03T11:27:53.875139 #53177] DEBUG -- : {
   "path": "/dogs",
   "query": "",
   "method": "get",
@@ -37,8 +37,8 @@ D, [2018-04-03T11:14:03.458374 #50161] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2018-04-03T11:14:03.458483 #50161]  INFO -- : Found matching response for GET /dogs
-D, [2018-04-03T11:14:03.458525 #50161] DEBUG -- : {
+I, [2018-04-03T11:27:53.875247 #53177]  INFO -- : Found matching response for GET /dogs
+D, [2018-04-03T11:27:53.875300 #53177] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json"
@@ -52,6 +52,6 @@ D, [2018-04-03T11:14:03.458525 #50161] DEBUG -- : {
     }
   ]
 }
-I, [2018-04-03T11:14:03.461137 #50161]  INFO -- : Verifying - interactions matched
-I, [2018-04-03T11:14:03.463443 #50161]  INFO -- : Cleared interactions
-I, [2018-04-03T11:14:03.465878 #50161]  INFO -- : Merging interactions into pact for MyProvider at /Users/fordlab1/workspace/hey/pacts/myconsumer-myprovider.json
+I, [2018-04-03T11:27:53.877942 #53177]  INFO -- : Verifying - interactions matched
+I, [2018-04-03T11:27:53.880264 #53177]  INFO -- : Cleared interactions
+I, [2018-04-03T11:27:53.882849 #53177]  INFO -- : Merging interactions into pact for MyProvider at /Users/fordlab1/workspace/hey/pacts/myconsumer-myprovider.json

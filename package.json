@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "test": "mocha"
+    "test": "if [ -d 'pacts' ]; then rm -rf pacts; fi && mocha"
   },
   "devDependencies": {
     "@pact-foundation/pact": "^5.9.0",
