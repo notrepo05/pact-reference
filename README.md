@@ -9,7 +9,11 @@
 
 #### Setup your tests using Mocha
 `npm install --save-dev mocha`
+
+
 `npm install --save-dev chai`
+
+
 `npm install --save-dev axios`
 
 Add 
@@ -29,11 +33,14 @@ and copy `index.js` and put it in `hell`
 
 Replace `('../../../dist/pact') with ('@pact-foundation/pact')` in both test files and then install @pact-foundation/pact
 
+
 `npm install --save-dev @pact-foundation/pact`
 
 #### run the tests
 
 `npm install`
+
+
 `npm run test`
 
 It should generate a pact file and all the tests ought to pass
