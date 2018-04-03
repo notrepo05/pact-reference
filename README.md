@@ -1,4 +1,4 @@
-# pact-example
+# pact-hell
 
 ## How to recreate this repository:
 
